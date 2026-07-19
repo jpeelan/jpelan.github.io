@@ -370,6 +370,26 @@ a.project-link:hover {
 
 /* ---------- WORK ---------- */
 
+.work-main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.work-logo {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+
+  object-fit: contain;
+
+  background-color: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+
+  padding: 8px;
+}
+
 .work-list {
   display: grid;
   gap: 18px;
@@ -574,6 +594,11 @@ a.project-link:hover {
 
   .date {
     flex-shrink: 1;
+  }
+  
+  .work-logo {
+  width: 56px;
+  height: 56px;
   }
 }
 
